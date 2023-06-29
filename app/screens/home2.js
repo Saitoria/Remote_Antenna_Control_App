@@ -15,7 +15,7 @@ import CustomButton2 from "../components/CustomButton2";
     const [angle, setAngle] = useState(null);
     const postAngleToAPI = () => {
       // code to post `angle` to the API
-      const API_URL = "http://127.0.0.1:8000/api/postangle";
+      const API_URL = "http://127.0.0.1:8000/api/dish-angles";
       fetch(API_URL, {
         method: "POST",
         headers: {
